@@ -61,4 +61,16 @@ Suggested likelihood of failure: no indicators = improbable; one minor indicator
 ## For developers
 Plain HTML/CSS/JS, no build step. `node test.js` — every matrix cell, indicator suggestion, simple priority rules, DBH, offset point, chainage, work-list sort, CSV escaping / formula guard, GeoJSON. `browser-test.js` (puppeteer-core + Chrome) records a whole segment with photo, checks the work list, exports and an offline reload: `PUPPETEER=/path/to/puppeteer-core node browser-test.js http://localhost:8000/ shot.png`. When you change any file, bump `CACHE` in `sw.js`. `more-tools.js` is the shared “More free tools by John Richards” list.
 
+## More free tools by John Richards
+- 🌲 [Tree Gauge](https://johnrichardszpe-dot.github.io/tree-gauge/) — forest basal area with the phone camera (angle-gauge method)
+- 🌱 [Planting Survey](https://johnrichardszpe-dot.github.io/planting-survey/) — seedling survival %, trees per hectare and photo points
+- 🔥 [Fuel Check](https://johnrichardszpe-dot.github.io/fuel-check/) — simple step-by-step bushfire fuel hazard check
+- 🧭 [Forest Explorer](https://johnrichardszpe-dot.github.io/forest-explorer/) — school forest science kit: height, trunk, carbon
+- 🦜 [Habitat Survey](https://johnrichardszpe-dot.github.io/habitat-survey/) — habitat trees, hollows, wildlife sightings and signs
+- 🍎 [Orchard Counter](https://johnrichardszpe-dot.github.io/orchard-counter/) — row-by-row tree counts, gaps, replant list, yield sample
+- 🚧 [Roadside Trees](https://johnrichardszpe-dot.github.io/roadside-trees/) — roadside and powerline tree hazards, trimming and work lists *(this app)*
+- 🌌 [Universe map](https://johnrichardszpe-dot.github.io/universe-map/) — explore John Richards' map of the universe
+
+The same list is in the app (About / More tools screen), from the shared `more-tools.js`.
+
 No licence has been chosen yet.
