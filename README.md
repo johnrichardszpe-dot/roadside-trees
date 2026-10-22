@@ -73,4 +73,4 @@ Plain HTML/CSS/JS, no build step. `node test.js` — every matrix cell, indicato
 
 The same list is in the app (About / More tools screen), from the shared `more-tools.js`.
 
-No licence has been chosen yet.
+Released under the MIT Licence (see LICENSE). Free for anyone, anywhere, to use, change and share. Copyright (c) 2026 John Richards.
